@@ -1,0 +1,31 @@
+# Netlify settings for the Hindholistics website.
+# The site is plain HTML: no build step, publish this folder as it is.
+[build]
+  publish = "."
+  command = ""
+
+# Always send visitors to https://www.hindholistics.com (one address is better for Google)
+[[redirects]]
+  from = "https://hindholistics.com/*"
+  to = "https://www.hindholistics.com/:splat"
+  status = 301
+  force = true
+
+# Keep the zip and guide out of reach of visitors (they stay in GitHub)
+[[redirects]]
+  from = "/GUIDE.md"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hindholistics%20website.zip"
+  to = "/"
+  status = 301
+  force = true
+
+# Cache images for a week so the site loads fast on return visits
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

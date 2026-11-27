@@ -24,6 +24,12 @@
   status = 301
   force = true
 
+# Correct file type for the web app manifest (name + icons for phones and browsers)
+[[headers]]
+  for = "/site.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+
 # Cache images for a week so the site loads fast on return visits
 [[headers]]
   for = "/assets/*"

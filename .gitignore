@@ -1,2 +1,5 @@
 # local preview settings (not part of the website)
 .claude/
+
+# private SEO strategy report (keep out of the public repo)
+SEO-REPORT.md

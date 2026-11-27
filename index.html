@@ -3,9 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hindholistics | Building the Medical Army of India</title>
-<meta name="description" content="Hind Holistics Private Limited is an Indian healthcare and wellness company focused on accessible healthcare, digital health solutions, nutrition, and preventive health and wellness.">
-<meta name="keywords" content="Hind Holistics, Hindholistics, Hind Holistics Private Limited, Indian healthcare company, wellness company India, accessible healthcare, digital health solutions, nutrition, preventive health, Dr. Deep Satiar">
+<title>Hind Holistics | Healthcare, Wellness &amp; Digital Health Solutions</title>
+<meta name="description" content="Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition.">
 <meta name="author" content="Hind Holistics Private Limited">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://www.hindholistics.com/">
@@ -24,61 +23,96 @@
 <!-- How the link looks when shared on WhatsApp, LinkedIn, Facebook, X -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Hind Holistics">
-<meta property="og:title" content="Hind Holistics | Building the Medical Army of India">
-<meta property="og:description" content="Hind Holistics Private Limited is an Indian healthcare and wellness company focused on accessible healthcare, digital health solutions, nutrition, and preventive health and wellness.">
+<meta property="og:title" content="Hind Holistics | Healthcare, Wellness &amp; Digital Health Solutions">
+<meta property="og:description" content="Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition.">
 <meta property="og:url" content="https://www.hindholistics.com/">
 <meta property="og:image" content="https://www.hindholistics.com/assets/logo-original.jpg">
 <meta property="og:image:alt" content="Hind Holistics lotus logo">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hind Holistics | Building the Medical Army of India">
-<meta name="twitter:description" content="Hind Holistics Private Limited is an Indian healthcare and wellness company focused on accessible healthcare, digital health solutions, nutrition, and preventive health and wellness.">
+<meta name="twitter:title" content="Hind Holistics | Healthcare, Wellness &amp; Digital Health Solutions">
+<meta name="twitter:description" content="Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition.">
 <meta name="twitter:image" content="https://www.hindholistics.com/assets/logo-original.jpg">
 
-<!-- Tells Google the site's name (shown above the link in search results) -->
+<!-- Structured data for Google: one connected graph (organisation, website, homepage, founder).
+     Every fact here is also visible on the site. Same @id values are reused on the other pages. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Hind Holistics",
-  "alternateName": ["Hindholistics", "Hind Holistics Private Limited"],
-  "url": "https://www.hindholistics.com/"
-}
-</script>
-
-<!-- Tells Google who Hind Holistics is (organisation, founder, contact) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Hind Holistics Private Limited",
-  "alternateName": ["Hind Holistics", "Hindholistics"],
-  "url": "https://www.hindholistics.com/",
-  "logo": "https://www.hindholistics.com/favicon-512x512.png",
-  "image": "https://www.hindholistics.com/assets/logo-original.jpg",
-  "description": "Hind Holistics Private Limited is an Indian healthcare and wellness company focused on accessible healthcare, digital health solutions, nutrition, and preventive health and wellness.",
-  "knowsAbout": ["Accessible healthcare", "Digital health solutions", "Nutrition", "Preventive health", "Wellness"],
-  "email": "hind.holistics@gmail.com",
-  "telephone": "+91-8584912341",
-  "areaServed": "IN",
-  "founder": {
-    "@type": "Person",
-    "name": "Dr. Deep Satiar",
-    "jobTitle": "General Surgeon and Founder",
-    "image": "https://www.hindholistics.com/assets/founder.webp",
-    "alumniOf": [
-      {"@type": "CollegeOrUniversity", "name": "Government Medical College, Amritsar"},
-      {"@type": "CollegeOrUniversity", "name": "National Medical College"}
-    ]
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer support",
-    "telephone": "+91-8584912341",
-    "email": "hind.holistics@gmail.com",
-    "availableLanguage": ["English", "Hindi"]
-  },
-  "sameAs": []
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.hindholistics.com/#organization",
+      "name": "Hind Holistics Private Limited",
+      "legalName": "Hind Holistics Private Limited",
+      "alternateName": ["Hind Holistics", "Hindholistics"],
+      "url": "https://www.hindholistics.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.hindholistics.com/#logo",
+        "url": "https://www.hindholistics.com/favicon-512x512.png",
+        "width": 512,
+        "height": 512,
+        "caption": "Hind Holistics"
+      },
+      "image": "https://www.hindholistics.com/assets/logo-original.jpg",
+      "description": "Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition.",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "CIN",
+        "name": "Corporate Identification Number",
+        "value": "U86100WB2025PTC285474"
+      },
+      "foundingDate": "2025",
+      "founder": { "@id": "https://www.hindholistics.com/#founder" },
+      "address": { "@type": "PostalAddress", "addressCountry": "IN" },
+      "areaServed": { "@type": "Country", "name": "India" },
+      "knowsAbout": ["Accessible healthcare", "Digital health", "Preventive healthcare", "Nutrition", "Wellness"],
+      "email": "hind.holistics@gmail.com",
+      "telephone": "+91-8584912341",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+91-8584912341",
+        "email": "hind.holistics@gmail.com",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi"]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.hindholistics.com/#founder",
+      "name": "Dr. Deep Satiar",
+      "jobTitle": "General Surgeon and Founder",
+      "image": "https://www.hindholistics.com/assets/founder.webp",
+      "worksFor": { "@id": "https://www.hindholistics.com/#organization" },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Government Medical College, Amritsar" },
+        { "@type": "CollegeOrUniversity", "name": "National Medical College" }
+      ],
+      "url": "https://www.hindholistics.com/about/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.hindholistics.com/#website",
+      "name": "Hind Holistics",
+      "alternateName": ["Hindholistics", "Hind Holistics Private Limited"],
+      "url": "https://www.hindholistics.com/",
+      "inLanguage": "en-IN",
+      "publisher": { "@id": "https://www.hindholistics.com/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.hindholistics.com/#webpage",
+      "url": "https://www.hindholistics.com/",
+      "name": "Hind Holistics | Healthcare, Wellness & Digital Health Solutions",
+      "description": "Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition.",
+      "isPartOf": { "@id": "https://www.hindholistics.com/#website" },
+      "about": { "@id": "https://www.hindholistics.com/#organization" },
+      "primaryImageOfPage": { "@id": "https://www.hindholistics.com/#logo" },
+      "inLanguage": "en-IN"
+    }
+  ]
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -161,19 +195,21 @@
 
   #dust{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
   .hero-line{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 24px;z-index:3;opacity:0;pointer-events:none}
-  .hero-line h1{font-size:clamp(2rem,5.4vw,4.2rem);max-width:900px;font-weight:600}
+  .hero-line h2{font-size:clamp(2rem,5.4vw,4.2rem);max-width:900px;font-weight:600}
   .hero-line p{color:var(--muted);max-width:600px;margin-top:20px;font-size:1.06rem}
   .scroll-hint{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);font-size:.66rem;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:10px;animation:fadeUp 1s 4s both;z-index:3}
   .scroll-hint i{width:1px;height:40px;background:var(--ink);animation:drip 2.2s infinite}
   @keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
   /* angled marquee bands */
+  /* the tilted bands run past the screen edges by design; clip them sideways only so phones never scroll horizontally */
+  .bands{overflow-x:clip;overflow-y:visible;position:relative;z-index:2}
   .band{position:relative;margin:30px -5vw;transform:rotate(-2.5deg);background:var(--ink);padding:16px 0;overflow:hidden;z-index:2}
   .band.alt{transform:rotate(2deg);margin-top:-66px;background:#fff;border-block:1px solid var(--ink);z-index:1}
   .band .track{display:flex;gap:44px;width:max-content;animation:marq 32s linear infinite;font-family:Montserrat;font-weight:600;font-size:1.15rem;text-transform:uppercase;letter-spacing:.14em;color:#fff}
   .band.alt .track{color:var(--ink);animation-direction:reverse;font-weight:500}
   .band .track a{display:flex;align-items:center;gap:44px}
-  .band .track a::after{content:"";width:16px;height:16px;background:url(assets/lotus.png) center/contain no-repeat;filter:invert(1)}
+  .band .track a::after{content:"";width:16px;height:16px;background:url(assets/lotus-sm.png) center/contain no-repeat;filter:invert(1)}
   .band.alt .track a::after{filter:none}
   @keyframes marq{to{transform:translateX(-50%)}}
 
@@ -284,9 +320,9 @@
 
   footer{border-top:1px solid var(--line);padding:64px 0 40px;margin-top:40px;background:#fff}
   .foot{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap}
-  .foot .logo{width:130px}
+  .foot .logo{width:130px;height:auto}
   .foot p{color:var(--muted);font-size:.9rem;max-width:340px;margin-top:18px}
-  .foot nav{display:flex;gap:56px;flex-wrap:wrap}
+  .foot nav{display:flex;gap:44px;flex-wrap:wrap}
   .foot nav div{display:grid;gap:10px;align-content:start;font-size:.9rem;color:var(--muted)}
   .foot nav b{color:var(--ink);font-family:Montserrat;font-weight:600;margin-bottom:4px}
   .foot nav a:hover{color:var(--ink)}
@@ -295,7 +331,21 @@
   .reveal{opacity:0;transform:translateY(30px);transition:opacity .9s ease,transform .9s ease}
   .reveal.in{opacity:1;transform:none}
 
+  /* visually hidden but read by search engines and screen readers */
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+  /* About Hind Holistics block */
+  .about-hh{padding:40px 0 120px}
+  .focus{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .focus article{padding:26px 24px;border-radius:20px;background:#fff;border:1px solid var(--line)}
+  .focus h3{font-size:1.08rem;margin-bottom:8px}
+  .focus p{color:var(--muted);font-size:.92rem}
+  .about-more{margin-top:28px;color:var(--muted)}
+  .about-more a{color:var(--ink);font-weight:600;border-bottom:1px solid var(--ink)}
+  img{height:auto}
+
   @media (max-width:980px){
+    .focus{grid-template-columns:1fr 1fr}
     .founder,.split,.mission .sub{grid-template-columns:1fr}
     .pillar-grid{grid-template-columns:1fr;gap:20px}
     .fill-logo{max-width:180px;order:-1}
@@ -309,6 +359,8 @@
     .lockup .l{height:30px}.lockup .w{height:22px}
     .nav.open ul{display:flex;flex-direction:column;position:absolute;top:var(--head);left:0;right:0;background:#fff;padding:24px 16px;gap:18px;border-bottom:1px solid var(--line)}
     section{padding:80px 0}
+    .focus{grid-template-columns:1fr}
+    .about-hh{padding:20px 0 80px}
     form{grid-template-columns:1fr}
     .form-box,.cta-card{padding-left:22px;padding-right:22px}
     .band .track{font-size:.95rem}
@@ -333,11 +385,12 @@
 
 <header>
   <div class="wrap nav" id="nav">
-    <a href="#top" class="lockup" aria-label="Hindholistics home">
-      <img class="l" src="assets/lotus.png" alt="">
-      <img class="w" src="assets/wordmark.png" alt="Hindholistics">
+    <a href="/" class="lockup" aria-label="Hind Holistics home">
+      <img class="l" src="assets/lotus-sm.png" alt="" width="52" height="34">
+      <img class="w" src="assets/wordmark-sm.png" alt="Hind Holistics" width="59" height="26">
     </a>
     <ul>
+      <li><a href="/about/">About</a></li>
       <li><a href="#mission">Mission</a></li>
       <li><a href="#pillars">What we do</a></li>
       <li><a href="#roadmap">Roadmap</a></li>
@@ -355,7 +408,9 @@
   <section class="hero-pin" id="hero" style="padding:0">
     <div class="stage" id="stage">
       <canvas id="dust" aria-hidden="true"></canvas>
-      <div class="hero-logo" role="img" aria-label="Hindholistics logo">
+      <!-- Main page heading for search engines and screen readers; the logo below shows the same name visually -->
+      <h1 class="sr-only">Hind Holistics: healthcare, wellness and digital health company in India</h1>
+      <div class="hero-logo" role="img" aria-label="Hind Holistics logo">
         <!-- the five petals are exact cut-outs of the original logo; together they are the unchanged logo -->
         <div class="stack lotus-stack" id="lotusStack">
           <div class="bloom-wrap">
@@ -369,13 +424,14 @@
         <div class="stack word-stack" id="wordStack"></div>
       </div>
       <div class="hero-line" id="heroLine">
-        <h1>Building the medical army of India.</h1>
+        <h2>Building the medical army of India.</h2>
         <p>Research, artificial intelligence and next-generation care, working together for every life in India and, from India, for the world.</p>
       </div>
       <div class="scroll-hint" id="hint"><i></i>Scroll</div>
     </div>
   </section>
 
+  <div class="bands" aria-hidden="true">
   <div class="band" aria-hidden="true">
     <div class="track">
       <a>The Medical Army of India</a><a>Research · AI · Next-Gen Care</a><a>The Future of Indian Healthcare</a><a>Made in India, for the World</a>
@@ -388,16 +444,35 @@
       <a>Research &amp; Development</a><a>Artificial Intelligence</a><a>Better Human Life</a><a>Next-Gen Healthcare</a>
     </div>
   </div>
+  </div>
 
   <!-- MISSION -->
   <section class="mission" id="mission">
     <div class="wrap">
       <span class="eyebrow">Our mission</span>
-      <p class="words" id="words">Hindholistics is not just another medical institute. We are building the *medical *army *of *India, a force of healers, researchers and innovators who will make Indian healthcare the most trusted in the world.</p>
+      <p class="words" id="words">Hind Holistics is not just another medical institute. We are building the *medical *army *of *India, a force of healers, researchers and innovators who will make Indian healthcare the most trusted in the world.</p>
       <div class="sub">
-        <p class="reveal">Hindholistics Private Limited is a long-term commitment to redesign how a nation of more than a billion people is cared for. The future of Indian healthcare will be decided by people who act now.</p>
+        <p class="reveal">Hind Holistics Private Limited is a long-term commitment to redesign how a nation of more than a billion people is cared for. The future of Indian healthcare will be decided by people who act now.</p>
         <p class="reveal">We bring clinicians, scientists and technologists into one team with one purpose: research that reaches the bedside, AI that serves doctors and patients, and care that treats the whole human being.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (plain-language summary of who Hind Holistics is) -->
+  <section class="about-hh" id="about">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">About Hind Holistics</span>
+        <h2>An Indian healthcare and wellness company</h2>
+        <p>Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition. Founded by general surgeon Dr. Deep Satiar, Hind Holistics brings doctors, researchers and technologists together to make good care easier to reach for people across India.</p>
+      </div>
+      <div class="focus reveal">
+        <article><h3>Accessible healthcare</h3><p>Care that is easier to reach, understand and afford, wherever people live in India.</p></article>
+        <article><h3>Digital health</h3><p>Technology and AI that support doctors and patients, built around real clinical needs.</p></article>
+        <article><h3>Preventive healthcare</h3><p>Helping people stay well through early awareness, screening and healthy habits.</p></article>
+        <article><h3>Nutrition &amp; wellness</h3><p>Everyday nutrition and lifestyle guidance that treats the whole person.</p></article>
+      </div>
+      <p class="about-more reveal">Our approach is evidence-based and led by clinicians. <a href="/about/">Learn more about Hind Holistics →</a></p>
     </div>
   </section>
 
@@ -451,7 +526,7 @@
         <h2>From one surgeon's vision to a national force</h2>
       </div>
       <div class="htrack" id="htrack">
-        <article class="hcard"><div class="big">01</div><small>Phase one</small><h4>Assemble the team</h4><p>Bring together the first doctors, researchers and builders of the Hindholistics core.</p></article>
+        <article class="hcard"><div class="big">01</div><small>Phase one</small><h4>Assemble the team</h4><p>Bring together the first doctors, researchers and builders of the Hind Holistics core.</p></article>
         <article class="hcard"><div class="big">02</div><small>Phase two</small><h4>Research &amp; AI labs</h4><p>Launch focused research programmes and AI projects grounded in real clinical needs.</p></article>
         <article class="hcard"><div class="big">03</div><small>Phase three</small><h4>Grow the medical army</h4><p>Train, connect and empower healthcare professionals in every state of India.</p></article>
         <article class="hcard"><div class="big">04</div><small>Phase four</small><h4>India to the world</h4><p>Take Indian healthcare innovation to a global stage and set the standard others follow.</p></article>
@@ -464,14 +539,14 @@
     <div class="wrap">
       <div class="founder reveal">
         <div class="portrait">
-          <img src="assets/founder.webp" alt="Dr. Deep Satiar, founder of Hindholistics">
-          <span class="badge"><img src="assets/lotus.png" alt="">FOUNDER</span>
+          <img src="assets/founder.webp" alt="Dr. Deep Satiar, general surgeon and founder of Hind Holistics" width="1254" height="1254" loading="lazy" decoding="async">
+          <span class="badge"><img src="assets/lotus-sm.png" alt="" width="22" height="14">FOUNDER</span>
         </div>
         <div>
           <span class="eyebrow">Founder</span>
           <h3>Dr. Deep Satiar</h3>
-          <div class="role">General Surgeon · Founder, Hindholistics Pvt. Ltd.</div>
-          <p>Dr. Deep Satiar is a general surgeon with vast experience in the surgical field, a part-time content creator, and the founder of Hindholistics. Dr. Satiar started Hindholistics with one conviction: India's healthcare future will be decided by the people who act now.</p>
+          <div class="role">General Surgeon · Founder, Hind Holistics Pvt. Ltd.</div>
+          <p>Dr. Deep Satiar is a general surgeon with vast experience in the surgical field, a part-time content creator, and the founder of Hind Holistics. Dr. Satiar started Hind Holistics with one conviction: India's healthcare future will be decided by the people who act now.</p>
           <p>Beyond the operating theatre, Dr. Satiar has founded multiple NGOs and worked with many others, bringing care to the communities that need it most. Every part of that journey, from surgery to social work to the startup, serves one aim: to build a medical army that makes Indian healthcare the most trusted in the world.</p>
           <div class="highlights">
             <div><b>Surgeon</b><span>Vast experience in the surgical field</span></div>
@@ -493,14 +568,14 @@
     <div class="wrap">
       <div class="sec-head reveal">
         <span class="eyebrow">Be part of it</span>
-        <h2>Two doors into Hindholistics</h2>
+        <h2>Two doors into Hind Holistics</h2>
         <p>Whether you want to join the team or partner with us, there is a place for you in the medical army.</p>
       </div>
       <div class="split">
         <div class="cta-card join reveal">
           <span class="angle">Now recruiting</span>
-          <img class="mark" src="assets/lotus.png" alt="">
-          <h3>Join Hindholistics</h3>
+          <img class="mark" src="assets/lotus.png" alt="" loading="lazy" decoding="async">
+          <h3>Join Hind Holistics</h3>
           <p>Become part of the core team building the future of Indian healthcare.</p>
           <ul>
             <li>Doctors, surgeons and specialists</li>
@@ -508,12 +583,12 @@
             <li>AI engineers and developers</li>
             <li>Creators, designers and operators</li>
           </ul>
-          <a href="#apply" class="btn" data-type="Join Hindholistics">Apply to join →</a>
+          <a href="#apply" class="btn" data-type="Join Hind Holistics">Apply to join →</a>
         </div>
         <div class="cta-card work reveal" id="work">
           <span class="angle">Partner with us</span>
-          <img class="mark" src="assets/lotus.png" alt="">
-          <h3>Work with Hindholistics</h3>
+          <img class="mark" src="assets/lotus.png" alt="" loading="lazy" decoding="async">
+          <h3>Work with Hind Holistics</h3>
           <p>Collaborate with us on research, technology, education or healthcare delivery.</p>
           <ul>
             <li>Hospitals and medical institutions</li>
@@ -521,13 +596,13 @@
             <li>Technology and AI companies</li>
             <li>Investors and brand collaborations</li>
           </ul>
-          <a href="#apply" class="btn dark" data-type="Work with Hindholistics">Start a collaboration →</a>
+          <a href="#apply" class="btn dark" data-type="Work with Hind Holistics">Start a collaboration →</a>
         </div>
       </div>
 
       <div class="form-box reveal" id="apply">
         <h3>Tell us about yourself</h3>
-        <p>Leave your details and the Hindholistics team will reach out.</p>
+        <p>Leave your details and the Hind Holistics team will reach out.</p>
         <!-- Netlify Forms: when hosted on Netlify, every submission is saved and emailed to you. -->
         <form id="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact">
@@ -535,9 +610,9 @@
           <div class="field"><label for="name">Full name</label><input id="name" name="name" required placeholder="Dr. / Mr. / Ms. …"></div>
           <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
           <div class="field"><label for="type">I want to</label>
-            <select id="type" name="type"><option>Join Hindholistics</option><option>Work with Hindholistics</option><option>Just say hello</option></select></div>
+            <select id="type" name="type"><option>Join Hind Holistics</option><option>Work with Hind Holistics</option><option>Just say hello</option></select></div>
           <div class="field"><label for="role">Your field</label><input id="role" name="role" placeholder="e.g. Surgeon, AI engineer, Researcher"></div>
-          <div class="field full"><label for="msg">Message</label><textarea id="msg" name="message" placeholder="How would you like to be part of Hindholistics?"></textarea></div>
+          <div class="field full"><label for="msg">Message</label><textarea id="msg" name="message" placeholder="How would you like to be part of Hind Holistics?"></textarea></div>
           <div class="field full"><button class="btn dark" type="submit" style="align-self:flex-start">Send →</button></div>
           <p class="form-note" id="note">Thank you. Your message has been noted, and the team will be in touch.</p>
         </form>
@@ -564,17 +639,18 @@
   <div class="wrap">
     <div class="foot">
       <div>
-        <a href="#top"><img class="logo" src="assets/logo.png" alt="Hindholistics"></a>
-        <p>Building the medical army of India. Research, AI and next-generation healthcare for India and the world.</p>
+        <a href="/"><img class="logo" src="assets/logo-sm.png" alt="Hind Holistics" width="130" height="140" loading="lazy" decoding="async"></a>
+        <p>Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition.</p>
       </div>
-      <nav>
-        <div><b>Company</b><a href="#mission">Mission</a><a href="#roadmap">Roadmap</a><a href="#founder">Founder</a></div>
-        <div><b>Get involved</b><a href="#join">Join Hindholistics</a><a href="#work">Work with Hindholistics</a><a href="#apply">Apply</a></div>
+      <nav aria-label="Footer">
+        <div><b>Company</b><a href="/about/">About Hind Holistics</a><a href="#mission">Mission</a><a href="#founder">Founder</a></div>
+        <div><b>Get involved</b><a href="#join">Join Hind Holistics</a><a href="#work">Work with Hind Holistics</a><a href="/contact/">Contact us</a></div>
         <div><b>Contact</b><a href="https://wa.me/918584912341" target="_blank" rel="noopener">WhatsApp: +91 85849 12341</a><a class="plain" href="mailto:hind.holistics@gmail.com">hind.holistics@gmail.com</a></div>
+        <div><b>Legal</b><a href="/privacy-policy/">Privacy Policy</a><a href="/terms/">Terms &amp; Conditions</a></div>
       </nav>
     </div>
     <div class="copy">
-      <span>© <span id="yr"></span> Hindholistics Private Limited. All rights reserved.</span>
+      <span>© <span id="yr"></span> Hind Holistics Private Limited. All rights reserved. · CIN: U86100WB2025PTC285474</span>
       <span>Made in India</span>
     </div>
   </div>
@@ -732,7 +808,7 @@ document.getElementById('form').addEventListener('submit', async e => {
     const r = await fetch('/', { method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'},
       body: new URLSearchParams(new FormData(form)).toString() });
     if (!r.ok) throw new Error(r.status);
-    note.textContent = 'Thank you. Your message has reached the Hindholistics team, and we will be in touch.';
+    note.textContent = 'Thank you. Your message has reached the Hind Holistics team, and we will be in touch.';
     form.reset();
   } catch (err) {
     note.textContent = 'Sorry, the message could not be sent right now. Please reach us on WhatsApp (+91 85849 12341) or at hind.holistics@gmail.com.';

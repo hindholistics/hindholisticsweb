@@ -1,13 +1,13 @@
 {
   "name": "Hind Holistics",
   "short_name": "Hind Holistics",
-  "description": "Hind Holistics Private Limited is an Indian healthcare and wellness company focused on accessible healthcare, digital health solutions, nutrition, and preventive health and wellness.",
+  "description": "Hind Holistics Private Limited is an Indian healthcare and wellness company building accessible healthcare solutions through digital health, preventive healthcare and nutrition.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
-    { "src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/favicon-512x512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/favicon-192x192.png?v=2", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon-512x512.png?v=2", "sizes": "512x512", "type": "image/png" }
   ]
 }
